@@ -411,3 +411,252 @@
 {"level":"info","message":"Processing message: im feeling down","sessionId":"22b0322a-2ab0-439e-9da4-03aef06c1e70","timestamp":"2025-12-20T15:44:04.745Z"}
 {"event":{"data":{"history":[],"message":"im feeling down"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T15:44:04.775Z"}
 {"level":"error","message":"Error in sendMessage: Inngest API Error: 401 Event key not found","stack":"Error: Inngest API Error: 401 Event key not found\n    at Inngest.getResponseError (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:393:12)\n    at applyHookToOutput.result.ids.require_promises.retryWithBackoff.maxAttempts.maxAttempts (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:694:28)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.retryWithBackoff (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\helpers\\promises.ts:246:14)\n    at async Inngest._send (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:673:18)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:86:9)","timestamp":"2025-12-20T15:44:07.102Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T15:45:10.549Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T15:45:10.554Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T15:45:10.554Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:05:00.504Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:05:00.509Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:05:00.509Z"}
+{"level":"info","message":"Processing message: im down","sessionId":"d36d0a79-a4e7-4543-95ea-be579ccb57e7","timestamp":"2025-12-20T17:05:39.157Z"}
+{"event":{"data":{"history":[],"message":"im down"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:05:39.212Z"}
+{"level":"error","message":"Error in sendMessage: Inngest API Error: 401 Event key not found","stack":"Error: Inngest API Error: 401 Event key not found\n    at Inngest.getResponseError (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:393:12)\n    at applyHookToOutput.result.ids.require_promises.retryWithBackoff.maxAttempts.maxAttempts (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:694:28)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.retryWithBackoff (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\helpers\\promises.ts:246:14)\n    at async Inngest._send (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:673:18)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:86:9)","timestamp":"2025-12-20T17:05:42.535Z"}
+{"level":"info","message":"Processing message: i have down syndrome","sessionId":"11f9d8a4-672d-4f13-82d4-c10b6f138608","timestamp":"2025-12-20T17:06:32.655Z"}
+{"event":{"data":{"history":[],"message":"i have down syndrome"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:06:32.677Z"}
+{"level":"error","message":"Error in sendMessage: Inngest API Error: 401 Event key not found","stack":"Error: Inngest API Error: 401 Event key not found\n    at Inngest.getResponseError (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:393:12)\n    at applyHookToOutput.result.ids.require_promises.retryWithBackoff.maxAttempts.maxAttempts (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:694:28)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.retryWithBackoff (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\helpers\\promises.ts:246:14)\n    at async Inngest._send (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\src\\components\\Inngest.ts:673:18)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:86:9)","timestamp":"2025-12-20T17:06:36.349Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:18:49.278Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:18:49.283Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:18:49.284Z"}
+{"level":"info","message":"Processing message: i have downsyndrome","sessionId":"11f9d8a4-672d-4f13-82d4-c10b6f138608","timestamp":"2025-12-20T17:22:45.759Z"}
+{"event":{"data":{"history":[],"message":"i have downsyndrome"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:22:45.795Z"}
+{"level":"error","message":"Error in sendMessage: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}","name":"ApiError","stack":"ApiError: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}\n    at throwErrorIfNotOK (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:12044:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11764:13\n    at async Models.generateContent (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:13094:24)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:104:26)","status":403,"timestamp":"2025-12-20T17:22:46.017Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:22:46.139Z"}
+{"error":{"name":"ApiError","status":403},"level":"error","message":"Error in message analysis i have downsyndrome","timestamp":"2025-12-20T17:22:46.243Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:22:46.260Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:23:19.714Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:24:09.187Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:25:27.060Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"11f9d8a4-672d-4f13-82d4-c10b6f138608","timestamp":"2025-12-20T17:26:50.397Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:26:50.420Z"}
+{"level":"error","message":"Error in sendMessage: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}","name":"ApiError","stack":"ApiError: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}\n    at throwErrorIfNotOK (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:12044:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11764:13\n    at async Models.generateContent (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:13094:24)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:104:26)","status":403,"timestamp":"2025-12-20T17:26:50.590Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:26:50.762Z"}
+{"error":{"name":"ApiError","status":403},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T17:26:50.840Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:26:50.913Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:27:14.908Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:27:49.114Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:27:55.475Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: i have downsyndrome","timestamp":"2025-12-20T17:27:55.571Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: i have downsyndrome","timestamp":"2025-12-20T17:27:55.574Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:29:11.435Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:31:21.649Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:31:21.819Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T17:31:21.820Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"4600e49a-925e-433b-b5d6-f1d0b8ac0739","timestamp":"2025-12-20T17:31:55.446Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:31:55.474Z"}
+{"level":"error","message":"Error in sendMessage: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}","name":"ApiError","stack":"ApiError: {\"error\":{\"code\":403,\"message\":\"Your API key was reported as leaked. Please use another API key.\",\"status\":\"PERMISSION_DENIED\"}}\n    at throwErrorIfNotOK (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:12044:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11764:13\n    at async Models.generateContent (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:13094:24)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:104:26)","status":403,"timestamp":"2025-12-20T17:31:55.660Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:31:55.732Z"}
+{"error":{"name":"ApiError","status":403},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T17:31:55.807Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:31:55.871Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:32:14.067Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:33:12.339Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:34:12.907Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:36:29.530Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:36:29.626Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T17:36:29.627Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:38:57.341Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:38:57.347Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:38:57.348Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:39:04.711Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:39:04.717Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:39:04.718Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:39:49.297Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:39:49.303Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:39:49.304Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"3e0234eb-2b62-4e89-9154-96e1b9238c23","timestamp":"2025-12-20T17:40:11.030Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:40:11.055Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:40:11.196Z"}
+{"level":"error","message":"Error in sendMessage: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.","stack":"Error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.\n    at GoogleAuth.getApplicationDefaultAsync (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\google-auth-library\\build\\src\\auth\\googleauth.js:284:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runNextTicks (node:internal/process/task_queues:64:3)\n    at listOnTimeout (node:internal/timers:545:9)\n    at processTimers (node:internal/timers:519:7)\n    at async GoogleAuth.#determineClient (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\google-auth-library\\build\\src\\auth\\googleauth.js:764:36)\n    at async GoogleAuth.getClient (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\google-auth-library\\build\\src\\auth\\googleauth.js:741:20)\n    at async GoogleAuth.getRequestHeaders (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\google-auth-library\\build\\src\\auth\\googleauth.js:793:24)\n    at async NodeAuth.addGoogleAuthHeaders (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:17927:29)\n    at async ApiClient.getHeadersInternal (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11904:9)","timestamp":"2025-12-20T17:40:14.138Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T17:40:14.142Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:40:14.175Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:40:31.585Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:41:26.416Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T17:42:29.418Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:43:59.279Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:43:59.285Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:43:59.285Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:44:05.253Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:44:05.260Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:44:05.261Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T17:44:55.996Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T17:44:56.006Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T17:44:56.007Z"}
+{"level":"info","message":"Processing message: stink","sessionId":"4267b595-b285-45a6-bd43-3253a461f8fd","timestamp":"2025-12-20T17:45:19.167Z"}
+{"event":{"data":{"history":[],"message":"stink"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T17:45:19.188Z"}
+{"level":"error","message":"Error in sendMessage: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 40.850671089s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"40s\"}]}}","name":"ApiError","stack":"ApiError: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 40.850671089s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"40s\"}]}}\n    at throwErrorIfNotOK (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:12044:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11764:13\n    at async Models.generateContent (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:13094:24)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:104:26)","status":429,"timestamp":"2025-12-20T17:45:19.433Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T17:45:19.465Z"}
+{"error":{"name":"ApiError","status":429},"level":"error","message":"Error in message analysis stink","timestamp":"2025-12-20T17:45:19.558Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T17:45:19.720Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T17:45:43.366Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T17:46:29.362Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T19:53:01.609Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T19:53:01.616Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T19:53:01.617Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"4267b595-b285-45a6-bd43-3253a461f8fd","timestamp":"2025-12-20T19:53:40.458Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T19:53:40.955Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T19:53:41.308Z"}
+{"error":{"name":"ApiError","status":429},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T19:53:41.612Z"}
+{"level":"error","message":"Error in sendMessage: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 18.29052158s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-2.0-flash\",\"location\":\"global\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"18s\"}]}}","name":"ApiError","stack":"ApiError: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 18.29052158s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-2.0-flash\",\"location\":\"global\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.0-flash\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"18s\"}]}}\n    at throwErrorIfNotOK (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:12044:30)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:11764:13\n    at async Models.generateContent (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\node_modules\\@google\\genai\\dist\\node\\index.cjs:13094:24)\n    at async sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:104:26)","status":429,"timestamp":"2025-12-20T19:53:41.722Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T19:53:41.751Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T19:54:01.775Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T19:54:01.795Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T19:54:01.796Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T19:55:34.501Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T19:55:34.507Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T19:55:34.507Z"}
+{"level":"info","message":"Processing message: stink","sessionId":"73031234-6ee3-4613-84fb-927c2e3adf8c","timestamp":"2025-12-20T19:56:05.610Z"}
+{"event":{"data":{"history":[],"message":"stink"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T19:56:05.725Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T19:56:05.992Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI works by learning patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T19:56:06.773Z"}
+{"error":{},"level":"error","message":"Error in message analysis stink","timestamp":"2025-12-20T19:56:06.776Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T19:56:06.856Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T19:56:07.555Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T19:56:50.467Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T19:57:29.474Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T19:58:54.931Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T20:01:17.329Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: stink","timestamp":"2025-12-20T20:01:17.351Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: stink","timestamp":"2025-12-20T20:01:17.352Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:02:00.487Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:02:00.496Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:02:00.497Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"73031234-6ee3-4613-84fb-927c2e3adf8c","timestamp":"2025-12-20T20:02:12.404Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:02:12.426Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:02:12.707Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:02:13.303Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:02:13.304Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:02:13.467Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:02:13.536Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:02:58.134Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:02:58.140Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:02:58.140Z"}
+{"level":"info","message":"Processing message: im sad yuen","sessionId":"73031234-6ee3-4613-84fb-927c2e3adf8c","timestamp":"2025-12-20T20:03:23.246Z"}
+{"event":{"data":{"history":[],"message":"im sad yuen"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:03:23.265Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:03:23.372Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:03:23.984Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad yuen","timestamp":"2025-12-20T20:03:23.985Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:03:24.121Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:03:24.351Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:03:56.057Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:04:12.418Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:04:12.425Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:04:12.426Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"34dd6c0b-c444-4f6b-9588-19d21240cc2d","timestamp":"2025-12-20T20:04:34.561Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:04:34.800Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:04:35.063Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:04:35.617Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:04:35.617Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:04:35.659Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:04:35.920Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:04:38.071Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:04:50.985Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:05:41.704Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:05:46.904Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:06:51.467Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:07:48.674Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad yuen","timestamp":"2025-12-20T20:07:48.718Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad yuen","timestamp":"2025-12-20T20:07:48.721Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:08:53.063Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:08:53.211Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T20:08:53.213Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:12:19.426Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:12:19.433Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:12:19.434Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"5a45dd3c-fc19-4f52-ba9b-1cfa4ba215a6","timestamp":"2025-12-20T20:12:39.111Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:12:39.133Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:12:39.426Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns from data to make decisions or predictions.\n","timestamp":"2025-12-20T20:12:39.956Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:12:39.958Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:12:40.017Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:12:40.258Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:12:58.273Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:12:58.279Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:12:58.280Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:13:01.621Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:13:45.387Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"5a45dd3c-fc19-4f52-ba9b-1cfa4ba215a6","timestamp":"2025-12-20T20:14:53.697Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:14:53.716Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:14:53.983Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:14:54.587Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:14:54.588Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:14:54.714Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:14:54.794Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:15:14.984Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:15:37.777Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:16:27.829Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:17:21.566Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:17:21.708Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T20:17:21.709Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:17:37.130Z"}
+{"level":"info","message":"Processing message: sad","sessionId":"1937b09a-b66f-4459-b631-983eb7db9482","timestamp":"2025-12-20T20:18:17.122Z"}
+{"event":{"data":{"history":[],"message":"sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:18:17.145Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:18:17.364Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:18:17.839Z"}
+{"error":{},"level":"error","message":"Error in message analysis sad","timestamp":"2025-12-20T20:18:17.840Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:18:17.965Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:18:18.201Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:18:41.205Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:19:28.131Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:20:04.264Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:20:04.312Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T20:20:04.313Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:20:17.560Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:20:17.568Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:20:17.569Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:20:29.017Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:20:29.025Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:20:29.025Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:20:38.369Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"229e40f6-e383-443f-a9f9-4af5716efce6","timestamp":"2025-12-20T20:20:45.339Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:20:45.421Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:20:45.711Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI learns patterns from data to make predictions or decisions.\n","timestamp":"2025-12-20T20:20:46.260Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:20:46.261Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:20:46.311Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:20:46.495Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:21:20.299Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:21:59.466Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:22:12.755Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:22:12.762Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:22:12.762Z"}
+{"level":"info","message":"Processing message: im sad","sessionId":"229e40f6-e383-443f-a9f9-4af5716efce6","timestamp":"2025-12-20T20:22:22.284Z"}
+{"event":{"data":{"history":[],"message":"im sad"},"name":"therapy/session.message"},"level":"info","message":"Sending message to Inngest:","timestamp":"2025-12-20T20:22:22.311Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:22:22.621Z"}
+{"level":"info","message":"Recieved anaysis from Gemini","text":"AI uses algorithms to learn from data and make decisions.\n","timestamp":"2025-12-20T20:22:23.219Z"}
+{"error":{},"level":"error","message":"Error in message analysis im sad","timestamp":"2025-12-20T20:22:23.220Z"}
+{"level":"error","message":"Error in sendMessage: Unexpected token '`', \"```json\n{\n\"... is not valid JSON","stack":"SyntaxError: Unexpected token '`', \"```json\n{\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at sendMessage (C:\\Users\\hanss\\Desktop\\yuenai\\backend\\src\\controllers\\chat.ts:110:31)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-12-20T20:22:23.337Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:22:23.366Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:22:50.059Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: sad","timestamp":"2025-12-20T20:22:50.210Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: sad","timestamp":"2025-12-20T20:22:50.211Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:22:59.292Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:23:10.045Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:23:10.059Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:23:10.060Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:23:14.585Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:23:54.411Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:25:01.243Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:25:35.688Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:25:35.818Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T20:25:35.819Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:27:19.416Z"}
+{"historyLength":0,"level":"info","message":"Processing chat message: im sad","timestamp":"2025-12-20T20:27:19.458Z"}
+{"error":{"name":"TypeError","stepId":"update-memory"},"level":"error","message":"Error in chat message processing: im sad","timestamp":"2025-12-20T20:27:19.458Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:37:59.182Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:37:59.190Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:37:59.190Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:44:25.379Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:44:25.386Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:44:25.387Z"}
+{"level":"info","message":"Mood logged for user 6946dd7f47fb6d618af64b07","timestamp":"2025-12-20T20:47:28.557Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-12-20T20:48:54.523Z"}
+{"level":"info","message":"Server is running on port 3001","timestamp":"2025-12-20T20:48:54.528Z"}
+{"level":"info","message":"Inngest endpoint available at http://localhost:3001/api/inngest","timestamp":"2025-12-20T20:48:54.529Z"}

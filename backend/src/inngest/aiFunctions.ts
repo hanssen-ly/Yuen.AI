@@ -4,7 +4,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const genAI = new GoogleGenAI({
     apiKey:
-        process.env.GEMINI_API_KEY || "AIzaSyCfIC7Y4_eqaE_C5docMRyRDIsSQqjHaNU"
+        process.env.GEMINI_API_KEY || ""
 });
 
 export const processChatMessage = inngest.createFunction(
